@@ -1,0 +1,26 @@
+{
+    "name": "avecolortheme",
+    "displayName": "avecolortheme",
+    "description": "Nowy color theme",
+    "version": "0.0.1",
+    "publisher": "Avestereye",
+    "repository": {
+        "type": "git",
+        "url": "",
+    },
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Avecolortheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Avecolortheme-color-theme.json"
+            }
+        ]
+    }
+}
